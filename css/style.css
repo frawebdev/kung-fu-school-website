@@ -1,0 +1,203 @@
+/*general css*/
+
+h1, h2{
+    font-family: 'Cinzel', serif;
+    color: #882021;
+}
+
+p, h3, h5, a, li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-size: 18px;
+    color: #882021;
+}
+
+a:hover{
+    color:rgb(0, 0, 0, 0.7);
+}
+
+.btn-color-font{
+    background-color: #882021;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-color-font:hover{
+    background-color: white;
+    color: #882021;
+    border: solid 1px #882021;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.main-color{
+    color:#882021;
+}
+
+.bg-color{
+    background-color:white;
+}
+
+.hide-element{
+    display:none;
+}
+
+.carousel-item{
+    height:75vh;
+}
+
+/*navbar css*/
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width:80px;
+    height:80px;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #882021;
+}
+
+/*jumbotrons*/
+
+.jumbotron{
+    background-position: center;
+    background-size: cover;
+    box-shadow:#8e8e8e 0 3px 30px;
+}
+
+.jumbotron-home{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/kung_fu_quan_cover.jpg');
+}
+
+.jumbotron-corso-kf{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/corsi_di_kung_fu_cover.jpg');
+}
+
+.jumbotron-corso-kfb{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/kung_fu_bambini.jpg');
+}
+
+.jumbotron-liu-peng{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/il-maestro-liu-peng-cover.jpg');
+}
+
+.jumbotron-chi-siamo{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/chi_siamo_cover.jpg');
+}
+
+.jumbotron-zen{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/cultura-zen-cover.jpg');
+}
+
+.jumbotron-tc{
+    background-image:linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url('../img/corso_di_tai_chi_cover.jpg');
+}
+
+/*cards*/
+
+.card{
+    box-shadow: #8e8e8e 8px 8px 15px;
+}
+
+.card-header {
+    background-color: #882021;
+    color: white;
+}
+
+.card-img-overlay{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/*carousels*/
+
+.carousel{
+    box-shadow: #8e8e8e 8px 8px 15px;
+}
+
+/*images*/
+ 
+.shadows{
+    box-shadow: #8e8e8e 8px 8px 15px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-counter img{
+    width: 35px;
+    cursor: pointer;
+}
+
+/*contacts*/
+
+.contacts{
+    position: fixed;
+    right:8px;
+    bottom:8px;
+    display: flex;
+    flex-direction: column;
+    z-index:1000;
+}
+
+.contacts .contact{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:5px;
+    margin-bottom: 3px;
+    background-color:rgba(136, 32, 33, 0.7);
+}
+
+.contacts .contact img{
+    width: 100%;
+}
+
+.contact:nth-child(1){
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+/*.btn-group {
+    position: sticky;
+    bottom: 6px;
+    width:20%;
+    left: 40%;
+    right: 40%;
+}
+
+.btn-group .btn{
+    padding:0;
+}
+
+.btn-group img{
+    width:40px;
+}*/
